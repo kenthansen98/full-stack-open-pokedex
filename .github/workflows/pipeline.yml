@@ -34,3 +34,4 @@ jobs:
           heroku_email: "kenthansen98@gmail.com"
           healthcheck: "https://agile-atoll-05998.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
